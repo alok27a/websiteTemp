@@ -1,0 +1,76 @@
+body {
+  /*padding: 0px;*/
+  margin: 0px;
+  font-family: "Bree Serif", serif;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+/*Hero Page*/
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 633px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#home::before {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/Images/rest.jpg);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+
+.main-h {
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+    padding: 12px;
+}
+
+.main-p{
+    font-family: 'Bree Serif', serif;
+    padding:8px;
+    text-align: center;
+}
+
+/*Services*/'=
+
+
+#services-container h1{
+    margin-bottom:0px ;
+    height: 100%;
+    width: 100%;
+}
+#Services{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+    justify-content: center;
+    justify-content:space-around;
+}
+.box
+{
+  width: 320px;
+  height: 300px;
+  padding: 40px 30px;
+  background: #f6f5f5;
+  margin: 0px;
+  border-radius: 40px;
+  box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0,0,0,0.1);
+}
+.box:hover
+{
+  box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.05);
+}
