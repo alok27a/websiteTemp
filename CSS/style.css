@@ -10,8 +10,7 @@ p{
 #home {
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
-    height: 633px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
   }
@@ -35,22 +34,20 @@ p{
 .main-h {
     font-family: 'Bree Serif', serif;
     font-size: 3rem;
-    padding: 12px;
 }
 
 .main-p{
     font-family: 'Bree Serif', serif;
     padding:8px;
     text-align: center;
+    max-width:80vw;
 }
 
-/*Services*/'=
+/*Services*/
 
 
 #services-container h1{
     margin-bottom:0px ;
-    height: 100%;
-    width: 100%;
 }
 #Services{
     display: flex;
