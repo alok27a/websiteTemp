@@ -10,8 +10,7 @@ p{
 #home {
     display: flex;
     flex-direction: column;
-    padding: 3px 200px;
-    height: 633px;
+    height: 100vh;
     justify-content: center;
     align-items: center;
   }
@@ -35,28 +34,26 @@ p{
 .main-h {
     font-family: 'Bree Serif', serif;
     font-size: 3rem;
-    padding: 12px;
 }
 
 .main-p{
     font-family: 'Bree Serif', serif;
     padding:8px;
     text-align: center;
+    max-width:80vw;
 }
 
-/*Services*/'=
+/*Services*/
 
 
 #services-container h1{
-    margin-bottom:0px ;
-    height: 100%;
-    width: 100%;
+    margin:auto;
 }
 #Services{
     display: flex;
     flex-direction: row;
     margin: auto;
-
+    flex-wrap:wrap;
     justify-content: center;
     justify-content:space-around;
 }
@@ -69,6 +66,7 @@ p{
   margin: 0px;
   border-radius: 40px;
   box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0,0,0,0.1);
+  margin-bottom:50px;
 }
 .box:hover
 {
