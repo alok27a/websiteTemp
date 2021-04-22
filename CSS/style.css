@@ -47,13 +47,13 @@ p{
 
 
 #services-container h1{
-    margin-bottom:0px ;
+    margin:auto;
 }
 #Services{
     display: flex;
     flex-direction: row;
     margin: auto;
-
+    flex-wrap:wrap;
     justify-content: center;
     justify-content:space-around;
 }
@@ -66,6 +66,7 @@ p{
   margin: 0px;
   border-radius: 40px;
   box-shadow: -6px -6px 20px rgba(255,255,255,1), 6px 6px 20px rgba(0,0,0,0.1);
+  margin-bottom:50px;
 }
 .box:hover
 {
