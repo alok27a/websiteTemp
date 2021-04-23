@@ -2,6 +2,7 @@ body {
   /*padding: 0px;*/
   margin: 0px;
   font-family: "Bree Serif", serif;
+  overflow: hidden; /* Hide scrollbars */
 }
 p {
   font-family: "Poppins", sans-serif;
