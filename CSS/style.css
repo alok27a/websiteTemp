@@ -43,7 +43,9 @@ p {
 }
 
 /*Services*/
-
+#services-container{
+  height:100vh;
+}
 #services-container h1 {
   margin: auto;
 }
@@ -55,23 +57,32 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
-  height: 100vh;
+  height: auto;
+  margin-bottom: 5rem;
 }
 .box {
   width: 320px;
-  height: 300px;
+  height: auto;
   padding: 40px 30px;
   background: #f6f5f5;
-  margin: 95px;
   border-radius: 40px;
   box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
     6px 6px 20px rgba(0, 0, 0, 0.1);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .box:hover {
   box-shadow: inset -6px -6px 20px rgba(255, 255, 255, 0.5),
     inset 6px 6px 20px rgba(0, 0, 0, 0.05);
 }
+
+@media screen and (max-width:750px){
+  #services-container{
+    height:auto;
+  }
+  
+}
+
+
 /*Contact me*/
 
 #contact-me {
