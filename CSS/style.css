@@ -19,7 +19,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/Images/hero.jpg);
+  background-image: url(../Images/hero.jpg);
   background-attachment: fixed;
   content: "";
   position: absolute;
@@ -92,7 +92,7 @@ p {
   padding: 30px 0;
   background: #1c1c1a;
   overflow: hidden;
-  background-image: url(/Images/sponsor-bg.png);
+  background-image: url(../Images/sponsor-bg.png);
   animation: bg 30s linear infinite;
   justify-content: flex-start;
   align-items: center;
