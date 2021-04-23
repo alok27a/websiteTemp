@@ -19,14 +19,14 @@ p{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(/Images/rest.jpg);
+  background-image: url(/Images/hero.jpg);
+  background-attachment: fixed;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   height: 100vh;
   width: 100%;
-  opacity: 0.6;
   z-index: -1;
 }
 
@@ -34,6 +34,7 @@ p{
 .main-h {
     font-family: 'Bree Serif', serif;
     font-size: 3rem;
+
 }
 
 .main-p{
@@ -46,9 +47,19 @@ p{
 /*Services*/
 
 
+
+
+
+
+
+
 #services-container h1{
     margin:auto;
 }
+
+
+
+
 #Services{
     display: flex;
     flex-direction: row;
@@ -72,3 +83,6 @@ p{
 {
   box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.05);
 }
+/*Contact me*/
+
+
