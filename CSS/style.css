@@ -55,14 +55,14 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   justify-content: space-around;
-
+  height: 100vh;
 }
 .box {
   width: 320px;
   height: 300px;
   padding: 40px 30px;
   background: #f6f5f5;
-  margin: 0px;
+  margin: 95px;
   border-radius: 40px;
   box-shadow: -6px -6px 20px rgba(255, 255, 255, 1),
     6px 6px 20px rgba(0, 0, 0, 0.1);
